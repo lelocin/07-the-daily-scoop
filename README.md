@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# The Daily Scoop
+I often feel overwhelmed by the volume of information available when scrolling through various news sources, which I believe is an invetible scenario in this digital age. In the past, I used an App that summarizes 2-3 news headlines everyday and I can respond to the chat by requesting more articles or information of a specific article. Unfortunately, this App is no longer in the market. Therefore, to address the issue, my project uses News API to fetch and display 10 news headlines in the US. This approach makes it easier for me to stay updated on trends while saving time by eliminating the need to click through multiple websites.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Additionally, while the News API offers a wealth of information, it lacks a user-friendly interface. Therefore, this project visualizes News API's data, enhancing accessibility and usability.
 
-## Available Scripts
+## Chosen API 
+The chosen API for this project is News API. News API searches articles from over 150,000 news sources worldwide. NewsAPI mainly supports the search function, but it allows you to search with specific categories, countries, keywords or timeframes. The project sends requests to fetch US news headlines with the provided cateogry and returns with article title, article publisher, article description and URL link to access the article. 
 
-In the project directory, you can run:
+## Setup 
+1. Clone the repository
+   ```
+   git clone https://github.com/lelocin/07-the-daily-scoop
+   ```
+2. Navigate to The Daily Scoop repository
+   ```
+   cd 07-the-daily-scoop
+   ```
+3. Visit newsapi.org to register for an account and apply for your unique API key
+4. Create an .env.local file to store your API key. 
+   ```
+   REACT_APP_NEWS_KEY = YOUR_API_KEY
+   ```
+5. Download neccessary requirements
+   ```
+   npm install
+   ```
+7. Run the program
+   ```
+   nmp start
+   ```
+## Usage
+Enter a desired category from the list of seven: business, entertainment, general, health, science, sports and technology. If interested, click the read more button to direct to the news article. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## AI-Generated Code 
+ChatGPT supported the basic structure of the JavaScript file. Additionally, I prompted ChatGPT to generate a more creative and dynamic design for the web page after creating a basic CSS file laying out necessary elements, which includes techniques like fade-in. 
