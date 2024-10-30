@@ -26,7 +26,7 @@ The chosen API for this project is News API. News API searches articles from ove
    ```
 7. Run the program
    ```
-   nmp start
+   npm start
    ```
 ## Usage
 Enter a desired category from the list of seven: business, entertainment, general, health, science, sports and technology. If interested, click the read more button to direct to the news article. 
